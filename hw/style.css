@@ -1,0 +1,132 @@
+* {
+	font-family: "Raleway", sans-serif;
+}
+header h1{
+	padding: 50px;
+	background: #001E6C;
+	margin-bottom: 0;
+	color: #fff;
+	text-align: center;
+	width: absolute;
+}
+main {
+	margin-top: 10px;
+}
+article {
+	text-align: justify;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #035397;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+li a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+	
+body {
+	position:absolute;
+	background-size:150%;
+	margin: auto;
+	width: auto;
+}
+footer {
+	padding: 20px;
+	text-align: center;
+	clear: both;
+}
+
+.box1{
+	padding: 20px;
+	width: auto;
+	float: left;
+	border-radius: 5px;
+}
+.box2 {
+	padding: 20px;
+	width: 97%;
+	float: left;
+}
+
+.rounded {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	padding: 20px;
+}
+.boxprofile{
+	width: 200px;
+	height: 200px;
+	margin: 0px;
+	float: right;
+}
+
+article img{
+	margin: auto;
+	display: block;
+}
+
+.find {
+	width: 650px;
+	height: 250px;
+	margin: 0 auto;
+	font-size: 30px;
+	padding: 30px;
+}
+.find img {
+	margin: 20px;
+	width: 80px;
+	height: 80px;
+}
+.find ul {
+	display: inline-block;
+	background-color: white;
+}
+.active {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width 1000px) {
+	.box1, .box2 {
+		width: 100%;
+		padding: 0;
+	}
+	aside {
+		margin-top: 10px;
+		width: 100%;
+	}
+	main {
+		padding: 20px;
+	}
+}
+@media screen and (max-width 1700px) {
+	.box1, .box2 {
+		width: 100%;
+		padding: 0;
+	}
+	aside {
+		margin-top: 10px;
+		width: 100%;
+	}
+	main {
+		padding: 20px;
+	}
+}
+
+
+
+
+	
